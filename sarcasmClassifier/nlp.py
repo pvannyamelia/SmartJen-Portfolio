@@ -34,7 +34,7 @@ def nlp():
 
     callbacks = myCallback()
 
-    file = open("dataset/sarcasm.json", 'r', encoding='utf-8')
+    file = open("../dataset/sarcasm.json", 'r', encoding='utf-8')
     for line in file.readlines():
         row = json.loads(line)
         sentences.append(row['headline'])
