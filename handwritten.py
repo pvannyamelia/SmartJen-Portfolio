@@ -1,8 +1,8 @@
 # =============================================================================
-# Handwritten problem
+# Handwritten digits problem
 #
-# Here, I try to create a classifier for the MNIST Handwritten digit dataset.
-# The test will expect it to classify 10 classes.
+# Here, I try to create a classifier for the MNIST Handwritten digit dataset. (http://yann.lecun.com/exdb/mnist/)
+# The input is 28 px by 28 px of black and white pictures. The test will expect it to classify 10 classes (number 0 to 9).
 #
 # Desired accuracy AND validation_accuracy > 95%
 # =============================================================================
